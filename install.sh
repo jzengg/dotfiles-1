@@ -1,6 +1,6 @@
 dir=~/dotfiles
 olddir=~/backup_dotfiles
-files="bash_profile vimrc"
+files="bash_profile vimrc git-completion.bash git-prompt.sh"
 
 echo "Backing up existing dotfiles"
 mkdir $olddir
@@ -24,3 +24,4 @@ cp -r $dir/.vim ~/.vim
 echo "...done"
 
 source ~/.bash_profile
+
